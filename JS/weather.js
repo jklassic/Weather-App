@@ -8,6 +8,7 @@ pressure = document.querySelector('#pressure'),
 wind = document.querySelector('#wind')
 long = document.querySelector('#lon')
 lati = document.querySelector('#lat')
+timezone = document.querySelector('#time')
 submit= document.querySelector('#submit');
 
 
@@ -22,6 +23,7 @@ submit.addEventListener('click',()=>{
         wind.innerHTML = `${data.wind.speed}m/s`
         long.innerHTML = `${data.coord.lon}°`
         lati.innerHTML = `${data.coord.lat}°`
+        timezone.innerHTML = `${data.dt}`
 
     }
 

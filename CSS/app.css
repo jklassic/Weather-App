@@ -36,6 +36,7 @@ button{
     border: none;
     border-radius: 30px;
     font-weight: bolder;
+    cursor: pointer;
 
 }
 
@@ -67,7 +68,7 @@ p.display{
     color: rgb(166, 166, 206);
 }
 
-#temp, #pressure, #lon{
+#temp, #pressure, #lon, #time{
     font-size: 1.8em;
     font-weight: bolder;
     color: rgb(255, 221, 0);
@@ -84,5 +85,5 @@ p.display{
 
 .error{
     color: aliceblue;
-   
+    
 }
